@@ -35,7 +35,7 @@ response = token
 
 - token tiene duración de 1 hora
 Esto proviene de controllers.js en loginUser, en const token.
-Se puede dejar sin expiracion con:
+- Se puede dejar sin expiracion con:
 const token = jwt.sign({ email: user.email }, SECRET);
 
 ## Test de token en thunder:
